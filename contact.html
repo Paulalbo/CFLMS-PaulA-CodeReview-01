@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+
+<header>
+	<div class="left">
+		<p>PAUL ALBRECHT <nobr><b>FULL-STACK WEB DEVELOPER</b></nobr></p>
+	</div>
+	<div class="right">
+		<img class="logo" src="img/logo.png">
+	</div>
+</header>
+<body>
+	<ul>
+		<li id="spaceright"><a class="active" href="contact.html">CONTACT</a></li>
+		<li><a href="aboutme.html">ABOUT ME</a></li>
+		<li><a href="blog.html">BLOG</a></li>
+		<li><a href="index.html">HOME</a></li>
+	</ul>
+	<h1>CONTACT</h1>
+	<table>
+	<tr>
+		<td><p>First Name:</p> <form><input type="text" name="firstname" placeholder="First name"></form></td>
+		<td><p>Last Name:</p> <form><input type="text" name="lastname" placeholder="Last name"></form></td>
+	</tr>
+	<tr>
+		<td colspan="2"><p>E-Mail:</p><br><form><input style="width: 100%;" type="text" name="email" placeholder="E-Mail"></form></td>
+	</tr>
+	<tr>
+		<td><p>Reason for Contact:</p><form>
+			<input type="radio" name="gender" value="male" checked>Privat <input type="radio" name="gender" value="female">Business <input type="radio" name="gender" value="other">Other 
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><p>Comment:</p>
+			<form>
+				<textarea name="message" style="width: 100%;" rows="10" cols="30">Lorem ipsum default text.</textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</td>
+	</tr>
+</table>
+	<footer>
+		<img class="logofooter" src="img/logo.png">
+		<p>PAUL ALBRECHT <b>CODEFACTORY 2020</b></p>
+	</footer>
+</body>
+</html>
